@@ -1,4 +1,10 @@
 package com.example.foro_hub.topico;
 
-public record DatosActualizacionUsuario() {
+import jakarta.validation.constraints.NotNull;
+
+public record DatosActualizacionTopico(
+        @NotNull Long id,
+        String titulo,
+        String mensaje
+) {
 }
