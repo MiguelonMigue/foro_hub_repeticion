@@ -26,6 +26,7 @@ public class Topico {
     private String mensaje;
     @Embedded
     private Autor autor;
+    @Enumerated(EnumType.ORDINAL)
     private Estado estado;
     private LocalDate fecha_de_creacion = LocalDate.now();
 

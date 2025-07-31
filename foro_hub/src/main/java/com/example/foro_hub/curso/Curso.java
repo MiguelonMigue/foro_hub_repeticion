@@ -2,12 +2,17 @@ package com.example.foro_hub.curso;
 
 import com.example.foro_hub.categoria.Categoria;
 import jakarta.persistence.Embeddable;
+import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
+@Getter
+@NoArgsConstructor
 @Embeddable
 public class Curso {
     private String nombreCurso;
-    @Enumerated
+    @Enumerated(EnumType.ORDINAL)
     private Categoria categoria;
 
     public Curso(DatosCurso datos){

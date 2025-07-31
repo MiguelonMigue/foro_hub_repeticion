@@ -15,4 +15,7 @@ public record DatosAutor(
         @NotNull Perfil perfil
 
         ) {
+        public DatosAutor(Autor autor){
+                this(autor.getNombre(), new DatosUsuario(autor.getUsuario()) , new DatosCurso(autor.getCurso()),autor.getPerfil());
+        }
 }

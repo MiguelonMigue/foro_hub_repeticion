@@ -6,8 +6,13 @@ import com.example.foro_hub.perfil.Perfil;
 import com.example.foro_hub.usuario.Usuario;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.Embedded;
+import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
+@Getter
 @Embeddable
 public class Autor {
 
@@ -16,7 +21,7 @@ public class Autor {
     private Usuario usuario;
     @Embedded
     private Curso curso;
-    @Enumerated
+    @Enumerated(EnumType.ORDINAL)
     private Perfil perfil;
 
     public Autor(DatosAutor datos){
