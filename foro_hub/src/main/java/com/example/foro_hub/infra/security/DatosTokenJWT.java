@@ -1,4 +1,4 @@
 package com.example.foro_hub.infra.security;
 
-public record DatosTokenJWT(String tokenJWT) {
+public record DatosTokenJWT(String token) {
 }
