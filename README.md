@@ -10,8 +10,8 @@ Aquí les dejo unas muestras
 
 
 y aqui les muestro como registro un nuevo topico
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a232b055-7ddd-4112-a9bd-4bff4e3479e1" />
 
-file:///home/miguel/Descargas/Recording-2025-08-05-23-29-54-from-Snipclip.mp4
 
 De igual modo la foto de la tabla Topicos en MySQL:
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cf48a1cf-e138-45c7-b860-91c9e008c90d" />
